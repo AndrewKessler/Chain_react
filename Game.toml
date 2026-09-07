@@ -1,0 +1,16 @@
+# Chain_react demo configuration
+# 1 = require Lineage blockchain ownership for authentication
+# 0 = skip blockchain authentication
+use_blockchain_auth = 1
+
+# Item that proves the player purchased this game/asset pack.
+# Replace with your item's genesis hash.
+required_item = "ge862a974002715c4f45859a5bd6b489"
+
+[mempool]
+url = "https://mempool.lineage.to"
+
+[server]
+# Local demo files stand in for a lightweight server-side database.
+registry_file = "registry.json"
+challenge_file = "challenge.json"
